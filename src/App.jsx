@@ -19,6 +19,11 @@ function App() {
         <button className='bg-blue-500 text-white px-5 py-2 rounded-md m-1 cursor-pointer' >
             submit
         </button>
+        
+        <button className='bg-blue-500 text-white px-5 py-2 rounded-md m-1 cursor-pointer' onClick={() => setCount((count) => count + 1)}>
+            count :{count}
+        </button>
+
     </>
   )
 }
